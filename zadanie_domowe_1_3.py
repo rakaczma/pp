@@ -17,6 +17,9 @@ print("Saldo po IV kwartale kapitalizacji odsetek wynosi",round(deposit,2), "zł
 print("Zysk rocznej lokaty z oprocentowaniem", factor1 * 100, "%, przy kapitalizacji kwartalnej wynosi", round(deposit - own_funds,2),
       "zł.\n\n")
 
+own_funds = 30_000.
+deposit = own_funds
+
 print("Oprocentowanie lokaty:", factor2 * 100,"%\n")
 deposit *= (1 + factor2 * q)
 print("Saldo po I kwartale kapitalizacji odsetek wynosi",round(deposit,2), "zł.\n ")
@@ -28,6 +31,9 @@ deposit *= (1 + factor2 * q)
 print("Saldo po IV kwartale kapitalizacji odsetek wynosi",round(deposit,2), "zł.\n ")
 print("Zysk rocznej lokaty z oprocentowaniem", factor2 * 100, "%, przy kapitalizacji kwartalnej wynosi", round(deposit - own_funds,2),
       "zł.\n\n")
+
+own_funds = 30_000.
+deposit = own_funds
 
 print("Oprocentowanie lokaty:", factor3 * 100,"%\n")
 deposit *= (1 + factor3 * q)
