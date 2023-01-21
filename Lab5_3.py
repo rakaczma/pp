@@ -2,9 +2,8 @@ own_funds = 46_567.
 deposit = own_funds
 factor = 1.075
 
-own_funds *= factor
-own_funds *= factor
-own_funds *= factor
+deposit *= factor
+deposit *= factor
+deposit *= factor
 
-print("Zysk z inwestycji wynosi:", round(deposit - own_funds, 2), "zł.")
-
+print("Zarobiłem na inwestycji", round(deposit - own_funds, 2), "zł.")
